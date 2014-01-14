@@ -55,6 +55,7 @@
 )
 #endif
 
+#undef BUG_ON
 #ifndef BUG_ON
 #ifdef NDEBUG
 #define BUG_ON(cond) do { if (cond) {} } while (0)
